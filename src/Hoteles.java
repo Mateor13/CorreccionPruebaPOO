@@ -16,7 +16,6 @@ public class Hoteles {
         this.numPisos = numPisos;
     }
     //Setters
-
     public void setNumHabitaciones(int numHabitaciones) {
         this.numHabitaciones = numHabitaciones;
     }
@@ -37,7 +36,6 @@ public class Hoteles {
         this.numPisos = numPisos;
     }
     //Getters
-
     public int getNumHabitaciones() {
         return numHabitaciones;
     }
@@ -67,6 +65,17 @@ public class Hoteles {
     }
     //Mostrar todos los valores
     public void imprimirDatos(){
-        System.out.println("Nombre: " + setNombre);
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Ubicacion: " + getUbicacion());
+        System.out.println("Calificacion: " + getCalificacion());
+        System.out.println("Num Habitaciones: " + getNumHabitaciones());
+        System.out.println("Num Pisos: " + getNumPisos());
+    }
+    public void datosNulos(){
+        setNumHabitaciones(0);
+        setNombre(null);
+        setUbicacion(null);
+        setCalificacion(null);
+        setNumPisos(0);
     }
 }
