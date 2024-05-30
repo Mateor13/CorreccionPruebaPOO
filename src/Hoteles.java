@@ -57,5 +57,16 @@ public class Hoteles {
     public int getNumPisos() {
         return numPisos;
     }
-
+    //Metodos personalizados
+    //Editar los datos de una instancia
+    public void editarDatos(int habitaciones, String nombre1, String ubicacion1, Double calificacion1){
+        numHabitaciones = habitaciones;
+        nombre = nombre1;
+        ubicacion = ubicacion1;
+        calificacion = calificacion1;
+    }
+    //Mostrar todos los valores
+    public void imprimirDatos(){
+        System.out.println("Nombre: " + setNombre);
+    }
 }
