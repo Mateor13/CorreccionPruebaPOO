@@ -80,5 +80,4 @@ public class Hoteles {
         setNumPisos(0);
         //hola////////
     }
-    //Hola
 }

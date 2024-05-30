@@ -12,7 +12,6 @@ public class Main {
         //Settear nombres
         hotel6.setNombre("Colon");
         hotel6.setNombre("Colon");
-        System.out.println("Menú principal");
-        System.out.println(" ");
+
     }
 }
