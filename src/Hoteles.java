@@ -78,6 +78,7 @@ public class Hoteles {
         setUbicacion(null);
         setCalificacion(null);
         setNumPisos(0);
+        //hola////////
     }
     //Hola
 }
