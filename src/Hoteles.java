@@ -71,6 +71,7 @@ public class Hoteles {
         System.out.println("Num Habitaciones: " + getNumHabitaciones());
         System.out.println("Num Pisos: " + getNumPisos());
     }
+    //Cambiar los datos por nulos
     public void datosNulos(){
         setNumHabitaciones(0);
         setNombre(null);
