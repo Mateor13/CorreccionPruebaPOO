@@ -10,8 +10,19 @@ public class Main {
         Hoteles hotel6=new Hoteles();
         Hoteles hotel7=new Hoteles();
         //Settear nombres
-        hotel6.setNombre("Colon");
-        hotel6.setNombre("Colon");
+        hotel6.setNumHabitaciones(4);
+        hotel6.setNombre("Carlos");
+        hotel6.setUbicacion("L314 Marin");
+        hotel6.setCalificacion(4.5);
+        hotel6.setNumPisos(2);
+
+        hotel7.setNumHabitaciones(3);
+        hotel7.setNombre("Carmen");
+        hotel7.setUbicacion("L134 Mar de Plata");
+        hotel7.setCalificacion(4.0);
+        hotel7.setNumPisos(3);
+        //Setear a null 5 objetos
+
 
     }
 }
