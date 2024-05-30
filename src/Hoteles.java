@@ -58,7 +58,7 @@ public class Hoteles {
 
     //Metodos personalizados
     //Editar los datos de una instancia
-    public void editarDatos(int habitaciones, String nombre1, String ubicacion1, Double calificacion1){
+    public void editarDatos(int habitaciones, String nombre1, String ubicacion1, Double calificacion1, int numPisos1){
         numHabitaciones = habitaciones;
         nombre = nombre1;
         ubicacion = ubicacion1;
@@ -71,7 +71,7 @@ public class Hoteles {
         System.out.println("Ubicacion: " + getUbicacion());
         System.out.println("Calificacion: " + getCalificacion());
         System.out.println("Num Habitaciones: " + getNumHabitaciones());
-        System.out.println("Num Pisos: " + getNumPisos());
+        System.out.println("Num Pisos: " + getNumPisos()+"\n");
     }
     //Cambiar los datos por nulos
     public void datosNulos(){
@@ -80,6 +80,11 @@ public class Hoteles {
         setUbicacion(null);
         setCalificacion(null);
         setNumPisos(0);
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Ubicacion: " + getUbicacion());
+        System.out.println("Calificacion: " + getCalificacion());
+        System.out.println("Num Habitaciones: " + getNumHabitaciones());
+        System.out.println("Num Pisos: " + getNumPisos()+"\n");
     }
 
 }

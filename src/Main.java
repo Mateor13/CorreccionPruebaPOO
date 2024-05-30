@@ -25,31 +25,15 @@ public class Main {
         hotel7.setCalificacion(4.0);
         hotel7.setNumPisos(3);
 
-        //Setear a null 3 hoteles
-        hotel1.setNumHabitaciones(0);
-        hotel1.setNombre(null);
-        hotel1.setUbicacion(null);
-        hotel1.setCalificacion(null);
-        hotel1.setNumPisos(0);
-
-        hotel6.setNumHabitaciones(0);
-        hotel6.setNombre(null);
-        hotel6.setUbicacion(null);
-        hotel6.setCalificacion(null);
-        hotel6.setNumPisos(0);
-
-        hotel7.setNumHabitaciones(0);
-        hotel7.setNombre(null);
-        hotel7.setUbicacion(null);
-        hotel7.setCalificacion(null);
-        hotel7.setNumPisos(0);
-
         //Editar Datos
-        hotel1.editarDatos();        }
-        hotel6.editarDatos();
-        hotel7.editarDatos();
+        String nombre1 = "Marrior", direccion1 = "Shirys", nombre2 = "Oro", direccion2 = "La Prensa", nombre3 = "Rey", direccion3 = "Pinos";
+        int numHabitaciones1 = 10, numHabitaciones2 = 20, numHabitaciones3 = 30, numPiso1 = 10, numPiso2 = 20, numPiso3 = 20;
+        Double calificacion1 = 15.0, calificacion2 = 30.0, calificacion3 = 25.0;
+        hotel1.editarDatos(numHabitaciones1,nombre1, direccion1,calificacion1,numPiso1);
+        hotel6.editarDatos(numHabitaciones2,nombre2, direccion2,calificacion2,numPiso2);
+        hotel7.editarDatos(numHabitaciones3,nombre3, direccion3,calificacion3,numPiso3);
 
-        //Mostrar
+        //Mostrar Datos
         hotel1.imprimirDatos();
         hotel2.imprimirDatos();
         hotel3.imprimirDatos();
@@ -57,5 +41,9 @@ public class Main {
         hotel5.imprimirDatos();
         hotel6.imprimirDatos();
         hotel7.imprimirDatos();
+        //hacer datos nulos e imprimirlos
+        hotel1.datosNulos();
+        hotel2.datosNulos();
+        hotel3.datosNulos();
     }
 }
